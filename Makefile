@@ -1,8 +1,5 @@
-# 'make depend'      uses makedepend to automatically generate dependencies
-#                    (dependencies are added to end of Makefile)
-# 'make'             build executable file 'mycc'
-# 'make clean'       removes all .o files
-# 'make clean all'   removes all .o files and executable file
+# 'make'             build executable file
+# 'make clean'       removes all extra files
 
 # define the C++ compiler to use
 RUST := cargo build
